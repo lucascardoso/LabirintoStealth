@@ -16,9 +16,9 @@
     <object>objects\ObjPlayer</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Fase3</room>
-    <room>rooms\Fase2</room>
     <room>rooms\Fase1</room>
+    <room>rooms\Fase2</room>
+    <room>rooms\Fase3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
