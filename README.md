@@ -5,5 +5,6 @@
 * O jogo deve:
  * Ser desenvolvido no GameMaker.
  * Ter tela de menu, tela game over e tela vitória.
- * Usar recurso de views nas rooms. E também object following
+ * Usar recurso de views nas rooms. E também object following.
+ * Ter três fases: Fácil, Média e Difícil.
 
