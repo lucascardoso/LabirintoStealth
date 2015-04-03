@@ -1,2 +1,9 @@
-# LabirintoStealth
-Jogo desenvolvido no GameMaker. O jogo deve ser um labirinto onde o player tem como objetivo passar de fase, mas durante as tentativas de achar a porta para passar de fase, o player pode encontrar alguns inimigos que estÃ£o prontos para atirar no mesmo.
+# **LabirintoStealth**
+Objetivo:
+> Chegar ao objetivo da fase que é um portal para a próxima fase e eliminando o mínimo possível de inimigos. A cada inimigo eliminado, reduz pela metade a pontuação da fase.
+***
+* O jogo deve:
+- Ser desenvolvido no GameMaker.
+- Ter tela de menu, tela game over e tela vitória.
+- Usar recurso de views nas rooms. E também object following
+
