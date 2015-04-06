@@ -8,12 +8,16 @@
   <sprites name="sprites">
     <sprite>sprites\Parede</sprite>
     <sprite>sprites\Player</sprite>
+    <sprite>sprites\Alvo</sprite>
+    <sprite>sprites\BalaPlayer</sprite>
+    <sprite>sprites\Municao</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\ObjParede</object>
     <object>objects\ObjPlayer</object>
+    <object>objects\ObjBalaPlayer</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Fase1</room>
