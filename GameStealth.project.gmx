@@ -14,10 +14,14 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\script0.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\ObjParede</object>
     <object>objects\ObjPlayer</object>
     <object>objects\ObjBalaPlayer</object>
+    <object>objects\ObjMunicao</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Fase1</room>

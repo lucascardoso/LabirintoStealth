@@ -28,7 +28,7 @@
             <string>pode_atirar = false;
 lives = 10;
 alarm[0] = 15;
-max_balas = 30;
+municao = 4;
 </string>
           </argument>
         </arguments>
@@ -128,11 +128,11 @@ max_balas = 30;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (pode_atirar &amp;&amp; max_balas != 0) {
+            <string>if (pode_atirar &amp;&amp; municao != 0) {
     instance_create(x, y, ObjBalaPlayer);
     pode_atirar = false;
     alarm[0] = 15;
-    max_balas--;
+    municao--;
 }
 </string>
           </argument>
