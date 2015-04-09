@@ -12,15 +12,23 @@
     <sprite>sprites\BalaPlayer</sprite>
     <sprite>sprites\Municao</sprite>
     <sprite>sprites\Inimigo</sprite>
+    <sprite>sprites\BalaInimigo</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\verificarColisao.gml</script>
+    <script>scripts\sortearDirecao.gml</script>
+    <script>scripts\definirVelocidade.gml</script>
+  </scripts>
+  <fonts name="fonts"/>
   <objects name="objects">
     <object>objects\ObjParede</object>
     <object>objects\ObjPlayer</object>
     <object>objects\ObjBalaPlayer</object>
     <object>objects\ObjMunicao</object>
     <object>objects\ObjInimigo</object>
+    <object>objects\ObjBalaInimigo</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Fase1</room>
