@@ -13,6 +13,7 @@
     <sprite>sprites\Municao</sprite>
     <sprite>sprites\Inimigo</sprite>
     <sprite>sprites\BalaInimigo</sprite>
+    <sprite>sprites\Portal</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -21,7 +22,9 @@
     <script>scripts\sortearDirecao.gml</script>
     <script>scripts\definirVelocidade.gml</script>
   </scripts>
-  <fonts name="fonts"/>
+  <fonts name="fonts">
+    <font>fonts\FontePequena</font>
+  </fonts>
   <objects name="objects">
     <object>objects\ObjParede</object>
     <object>objects\ObjPlayer</object>
@@ -29,6 +32,8 @@
     <object>objects\ObjMunicao</object>
     <object>objects\ObjInimigo</object>
     <object>objects\ObjBalaInimigo</object>
+    <object>objects\ObjDisplay</object>
+    <object>objects\ObjPortal</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Fase1</room>
