@@ -11,6 +11,30 @@
     <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
+        <id>526</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_font</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>12</kind>
+            <font>FontePequena</font>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>524</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -31,29 +55,29 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>703</id>
+        <id>514</id>
         <kind>0</kind>
         <userelative>-1</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
+        <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_draw_score</functionname>
+        <functionname>action_draw_text</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>0</kind>
-            <string>300</string>
+            <kind>2</kind>
+            <string>Pressione a tecla enter para iniciar...</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>20</string>
+            <string>room_width / 2</string>
           </argument>
           <argument>
-            <kind>1</kind>
-            <string>Score: </string>
+            <kind>0</kind>
+            <string>room_height - 100</string>
           </argument>
         </arguments>
       </action>
@@ -73,39 +97,31 @@
         <arguments>
           <argument>
             <kind>12</kind>
-            <font>FontePequena</font>
+            <font>FonteGrande</font>
           </argument>
           <argument>
             <kind>4</kind>
-            <string>0</string>
+            <string>1</string>
           </argument>
         </arguments>
       </action>
       <action>
         <libid>1</libid>
-        <id>713</id>
+        <id>524</id>
         <kind>0</kind>
-        <userelative>-1</userelative>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>0</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_draw_life</functionname>
+        <functionname>action_color</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>0</kind>
-            <string>400</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>20</string>
-          </argument>
-          <argument>
-            <kind>1</kind>
-            <string>Lives: </string>
+            <kind>13</kind>
+            <string>16777215</string>
           </argument>
         </arguments>
       </action>
@@ -125,67 +141,37 @@
         <arguments>
           <argument>
             <kind>2</kind>
-            <string>Municao:</string>
+            <string>LABIRINTO STEALTH</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>190</string>
+            <string>room_width / 2</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>20</string>
+            <string>room_height / 4</string>
           </argument>
         </arguments>
       </action>
+    </event>
+    <event eventtype="9" enumb="13">
       <action>
         <libid>1</libid>
-        <id>526</id>
+        <id>224</id>
         <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>0</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_font</functionname>
+        <functionname>action_another_room</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>12</kind>
-            <font>FontePequena</font>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>613</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_draw_variable</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>ObjPlayer.municao</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>260</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>20</string>
+            <kind>11</kind>
+            <room>Fase1</room>
           </argument>
         </arguments>
       </action>

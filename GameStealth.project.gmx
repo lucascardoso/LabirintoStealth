@@ -24,6 +24,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\FontePequena</font>
+    <font>fonts\FonteGrande</font>
   </fonts>
   <objects name="objects">
     <object>objects\ObjParede</object>
@@ -34,8 +35,10 @@
     <object>objects\ObjBalaInimigo</object>
     <object>objects\ObjDisplay</object>
     <object>objects\ObjPortal</object>
+    <object>objects\ObjDisplayTelaInicio</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\TelaInicio</room>
     <room>rooms\Fase1</room>
     <room>rooms\Fase2</room>
     <room>rooms\Fase3</room>
