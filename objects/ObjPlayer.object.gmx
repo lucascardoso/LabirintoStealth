@@ -28,8 +28,8 @@
             <string>pode_atirar = false;
 lives = 10;
 alarm[0] = 15;
-municao = 20;
-score = 30;
+municao = 16;
+score = 20;
 </string>
           </argument>
         </arguments>
@@ -102,6 +102,7 @@ score = 30;
             <string>lives --;
 
 if (lives == 0){
+    room_goto(4);
     instance_destroy();
 }
 </string>

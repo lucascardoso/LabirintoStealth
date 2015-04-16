@@ -27,8 +27,8 @@
     <font>fonts\FonteGrande</font>
   </fonts>
   <objects name="objects">
-    <object>objects\ObjParede</object>
     <object>objects\ObjPlayer</object>
+    <object>objects\ObjParede</object>
     <object>objects\ObjBalaPlayer</object>
     <object>objects\ObjMunicao</object>
     <object>objects\ObjInimigo</object>
@@ -36,12 +36,14 @@
     <object>objects\ObjDisplay</object>
     <object>objects\ObjPortal</object>
     <object>objects\ObjDisplayTelaInicio</object>
+    <object>objects\ObjDisplayTelaGameOver</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\TelaInicio</room>
     <room>rooms\Fase1</room>
     <room>rooms\Fase2</room>
     <room>rooms\Fase3</room>
+    <room>rooms\GameOver</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
