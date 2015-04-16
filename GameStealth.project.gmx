@@ -14,6 +14,7 @@
     <sprite>sprites\Inimigo</sprite>
     <sprite>sprites\BalaInimigo</sprite>
     <sprite>sprites\Portal</sprite>
+    <sprite>sprites\BarraDeVida</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -37,6 +38,7 @@
     <object>objects\ObjPortal</object>
     <object>objects\ObjDisplayTelaInicio</object>
     <object>objects\ObjDisplayTelaGameOver</object>
+    <object>objects\ObjBarraDeVidaInimigo</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\TelaInicio</room>

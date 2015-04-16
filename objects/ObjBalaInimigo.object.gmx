@@ -61,7 +61,7 @@ if (distancia &gt; 120){
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="ObjPlayer">
+    <event eventtype="4" ename="ObjParede">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -84,7 +84,7 @@ if (distancia &gt; 120){
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="ObjParede">
+    <event eventtype="4" ename="ObjPlayer">
       <action>
         <libid>1</libid>
         <id>603</id>

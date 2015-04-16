@@ -31,7 +31,7 @@ definirVelocidade(direcao);
 
 pode_atirar = false;
 vidas = 4;
-
+instance_create(x, y, ObjBarraDeVidaInimigo);
 </string>
           </argument>
         </arguments>
