@@ -25,13 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>direcao = sortearDirecao();
+            <string>vidas = 4;
+direcao = sortearDirecao();
 
 definirVelocidade(direcao);
 
 pode_atirar = false;
-vidas = 4;
-instance_create(x, y, ObjBarraDeVidaInimigo);
+
+//instance_create(x, y, ObjBarraDeVidaInimigo);
 </string>
           </argument>
         </arguments>
@@ -54,7 +55,7 @@ instance_create(x, y, ObjBarraDeVidaInimigo);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var col = (collision_line(ObjPlayer.x, ObjPlayer.y, ObjInimigo.x, ObjInimigo.y, ObjParede, false, false));
+            <string>var col = (collision_line(ObjPlayer.x, ObjPlayer.y, x, y, ObjParede, false, false));
 
 if (pode_atirar &amp;&amp; col &lt; 0){
   instance_create(x, y, ObjBalaInimigo);
@@ -81,7 +82,7 @@ if (pode_atirar &amp;&amp; col &lt; 0){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var dist = distance_to_object(ObjPlayer);
+            <string>var dist = distance_to_point(ObjPlayer.x, ObjPlayer.y);
 
 if (verificarColisao(direcao)) {
     direcao = sortearDirecao();
@@ -178,6 +179,8 @@ if (dist &lt; 110) {
           <argument>
             <kind>1</kind>
             <string>vidas --;
+show_debug_message("VIDAS");
+show_debug_message(vidas);
 
 if (vidas == 0) {
     score -= (score / 2);

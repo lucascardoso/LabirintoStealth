@@ -38,6 +38,7 @@
     <object>objects\ObjPortal</object>
     <object>objects\ObjDisplayTelaInicio</object>
     <object>objects\ObjDisplayTelaGameOver</object>
+    <object>objects\ObjDisplayTelaVitoria</object>
     <object>objects\ObjBarraDeVidaInimigo</object>
   </objects>
   <rooms name="rooms">
@@ -46,6 +47,7 @@
     <room>rooms\Fase2</room>
     <room>rooms\Fase3</room>
     <room>rooms\GameOver</room>
+    <room>rooms\Vitoria</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
